@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A beginner-friendly guide to HTML5, Accessibility, and SEO best practices.">
+    <meta name="author" content="Allan Musyoka">
+    <title>HTML5 + Accessibility & SEO Basics</title>
+</head>
+<body>
+
+    <header>
+        <h1>🌐 Welcome to Web Essentials</h1>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#accessibility">Accessibility</a></li>
+                <li><a href="#seo">SEO</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="about">
+            <h2>📘 About This Page</h2>
+            <p>This page was built using semantic HTML5 elements and is designed with accessibility and SEO in mind. It showcases how modern web design can benefit both users and search engines.</p>
+        </section>
+
+        <section id="accessibility">
+            <h2>♿ Accessibility Best Practices</h2>
+            <article>
+                <h3>1. Semantic HTML</h3>
+                <p>Using semantic tags like <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;footer&gt;</code> helps screen readers and assistive technologies understand the layout of your site.</p>
+            </article>
+            <article>
+                <h3>2. Keyboard Navigation</h3>
+                <p>Ensure users can navigate your site using only the keyboard (like the Tab key). Avoid inaccessible custom controls.</p>
+            </article>
+        </section>
+
+        <section id="seo">
+            <h2>🔍 SEO Fundamentals</h2>
+            <article>
+                <h3>1. Proper Use of Headings</h3>
+                <p>Using a clear heading hierarchy helps both users and search engines understand your content.</p>
+            </article>
+            <article>
+                <h3>2. Meta Descriptions</h3>
+                <p>Include a relevant <code>&lt;meta name="description"&gt;</code> tag to summarize your page for search engines.</p>
+            </article>
+            <article>
+                <h3>3. Internal and External Links</h3>
+                <p>Provide useful navigation with internal links and reputable external resources.</p>
+                <p>Learn more about <a href="https://www.w3.org/WAI/" target="_blank">web accessibility at W3C</a>.</p>
+            </article>
+        </section>
+
+        <section id="contact">
+            <h2>📫 Contact Us</h2>
+            <form aria-label="Contact form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2025 Web Academy. Built with accessibility and SEO in mind.</p>
+        <nav aria-label="Footer navigation">
+            <a href="#top">Back to Top</a>
+        </nav>
+    </footer>
+
+</body>
+</html>
